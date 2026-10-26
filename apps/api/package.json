@@ -11,8 +11,8 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "ark": "ark",
-    "dev": "ark dev",
-    "build": "ark build",
+    "dev": "node init && ark dev",
+    "build": "node init && ark build",
     "postinstall": "prepare"
   },
   "dependencies": {
